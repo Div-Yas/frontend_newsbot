@@ -4,7 +4,9 @@ import { RiRobot2Fill } from 'react-icons/ri'
 import { FaUser } from 'react-icons/fa'
 import './App.scss'
 
-const API_BASE = 'http://localhost:5000/api'
+// const API_BASE = 'http://localhost:5000/api'
+const API_BASE = 'https://newsbot-oufy.onrender.com/api'
+
 
 type Message = { role: 'user' | 'bot', text: string, sources?: {title:string,url:string}[] }
 
